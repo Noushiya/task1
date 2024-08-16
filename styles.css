@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.container h1{
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #0066cc;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.notification-icon,
+.profile-icon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+h2 {
+    color: #0066cc;
+    margin-top: 20px;
+}
+
+.intro-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.right-section {
+    margin-left: 10px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+textarea,
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004999;
+}
+
+.notice-board {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 10px 10px 0;
+    font-size: 12px;
+    writing-mode: vertical-rl;
+}
+
